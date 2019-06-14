@@ -81,9 +81,9 @@ public class Login extends JFrame {
 		panel4.setVisible(false);
 		this.setSize(300, 200);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.setVisible(true);
 		this.setTitle("Login");
 		this.setLocationRelativeTo(null);
+		this.setVisible(true);
 
 		// add action listener.
 		myOkButton.addActionListener(new ActionListener() {
